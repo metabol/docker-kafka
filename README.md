@@ -18,7 +18,7 @@ in the same container. This means:
 Locally
 -------
 Inside the "kafka" directory : 
-* docker build -t kafaka-zookeeper .
+* docker build -t kafka-zookeeper .
 * docker run -d --name kafka-zookeeper -p 2181:2181 -p 9092:9092 kafka-zookeeper
 
 
